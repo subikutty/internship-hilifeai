@@ -1,0 +1,24 @@
+body {
+    background-image:url("https://st.depositphotos.com/2010501/2322/i/450/depositphotos_23228564-stock-photo-angel-in-the-clouds.jpg");
+  }h1{
+    font-family:cursive;
+    text-overflow: 3px 3px;
+  }h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:line-through;
+  }h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  p{
+    width: 500px;
+    height: 500px;
+    background-color: lavenderblush;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  
+  @keyframes example {
+    from {background-color: lavenderblush;}
+    to {background-color: this;}
+  }
